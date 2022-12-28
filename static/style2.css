@@ -1,0 +1,89 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+.container span.span{
+    position: absolute;
+    background: red;
+    z-index: -1;
+    pointer-events: none;
+    animation: animate 10s ease-out infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: translateY(-600px) scale(0) rotate(0deg);
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(1200px) scale(1) rotate(360deg);
+        opacity: 0;
+    }
+}
+.content{
+    width: 600px;
+    background: rgba(255, 255, 255, .3);
+    padding: 45px 25px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, .3);
+    border-radius: 15px;
+    /* backdrop-filter: blur(4px); */
+    border-top: 2px solid #fff9;
+    border-left: 2px solid #fff9;
+    margin-top: 200px;
+    text-align: center;
+}
+.img_chat{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    color: #0095ff;
+}
+.animation_water{
+    position: relative;
+    margin-top: -250px;
+}
+.animation_water h1{
+    position: absolute;
+    padding-left: 150px;
+    transform: translate(-2%, -2%);
+    font-size: 4em;
+}
+.animation_water h1:nth-child(1){
+    color: transparent;
+    -webkit-text-stroke: 2px #03a9f4;
+}
+.animation_water h1:nth-child(2){
+    color: #03a9f4;
+    animation: animated 4s ease-in-out infinite;
+}
+@keyframes animated {
+    0%,100%{
+        clip-path: polygon(0 44%, 16% 33%, 33% 26%, 50% 24%, 65% 36%, 81% 41%, 100% 31%, 100% 100%, 0 100%);    
+    }
+    50%{
+        clip-path: polygon(0 30%, 16% 39%, 32% 47%, 49% 45%, 64% 34%, 83% 37%, 100% 55%, 100% 100%, 0 100%);
+
+
+    }
+}
+#chat_display{
+    transition: 0.3s;
+}
+span.textt{
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    color: #03a9f4;
+}
+span.first_text{
+    color: rgb(0, 0, 107);
+    font-weight: 600px;
+}

@@ -46,6 +46,9 @@ def predictAudio():
         file = "./music7.mp3"
         playsound(file)
         response = 'played'
+    elif "image" in text:
+        img = "./static/OBJ.jpg"
+        
     else:
         response = get_response(text)
         print(text)

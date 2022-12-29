@@ -48,7 +48,7 @@ class Chatbox{
         .then(r => r.json())
         .then(r => {
             let question = { name: "User", message: text1 };
-            let response = { name: "dbachat", message: decode_utf8(r.answer) };
+            let response = { name: "dbachat", message: decode_utf8(r.answer)  };
             this.messages.push(question);
             this.messages.push(response);
             this.updateChatText(chatbox);
@@ -88,10 +88,10 @@ class Chatbox{
         var html = '';
         this.messages.slice().reverse().forEach(function(item, index){
             if(item.name === "dbachat"){
-                html += '<div class="messages__item messages__item--visitor">' + item.message + '</div>'
+                 html += '<div class="messages__item messages__item--visitor">' + item.message + '</div>'
             }
             else{
-                html += '<div class="messages__item messages__item--operator">' + item.message + '</div>'
+                 html += '<div class="messages__item messages__item--operator">' + item.message + '</div>'
             }
         });
         const chatmessage = chatbox.querySelector('.chatbox__messages');

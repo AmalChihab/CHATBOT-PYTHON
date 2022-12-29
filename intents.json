@@ -32,53 +32,233 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "items",
+      "tag": "connected object",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "What is a connected object?",
+        "can you explain what is connected object?",
+        "What do you main by a connected object?",
+        "can you give some information about connected object?"
+
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        " A connected object is an object capable of communicating various information to another object or to the Internet."
       ]
     },
     {
-      "tag": "payments",
+      "tag": "IOT",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "what is IOT?",
+        "what do you mean by IOT?",
+        "Can you explain what is Internet of Things?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "IoT, or Internet of Things, refers to the collective network of connected devices and the technology that facilitates communication between devices and the cloud, as well as between the devices themselves.",
+        "The Internet of Things (IoT) is a network of physical objects that are fitted with sensors, software and other technologies. Connected to the Internet, these ‘things’ are able to exchange real time data with other connected devices and systems over networks.",
+        "The Internet of things could be defined as the technology concerned with connecting the devices with each other to facilitate communication between them. The devices that are connected will be able to share the information that can be used as the input by any device that is dependent on the other devices for input. It is called the Internet of things as similar to the Internet; this technology ensures the networking among the devices."
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "IOT architecture",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
+        "give me please the architecture of IOT?",
+        "what are the rubrics of IOT?"
+        ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+         "there is 4 layers of iot:  Sensing Layer, Network Layer, Data processing Layer, and Application Layer.",
+         "For Internet of Things solutions to work effectively, these four IoT architecture layers are required, each having a specific function: Device Layer,Communications Layer,Cloud Ingest, Data Storage and Processing Layer and Application Layer"
+          
+        
       ]
     },
     {
-      "tag": "funny",
+      "tag":"IOT ORACLE",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "Lobana what is Oracle IOT cloud service ?",
+        "Lobana can you explain what Oracle IOT cloud service means ?",
+        "Lobana  I don't understand what is OCS ?"
+      
       ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+      "responses":[
+        "Oracle IoT Cloud Service est une offre cloud PaaS  gérée qui vous aide à prendre des décisions et des stratégies commerciales critiques en vous permettant de connecter vos appareils au cloud, d’analyser les données de ces appareils en temps réel et d’intégrer vos données aux applications d’entreprise, aux services Web ou à d’autres services Oracle Cloud. "
+       ]
+    },
+    {
+      "tag":"roles of OCS",
+      "patterns":[
+        "Lobana what are the roles of OCS ?",
+        "Lobana can you give me the 4 principales roles of oracle cloud service ?",
+        "what are the four roles of oracle cloud service?"
+      ],
+      "responses":[
+        "OCS facilite the analyse,the intégration, Security and the connection of applications.",
+        "OCS have four principales roles : connectivity, analyse, intégration and Security."
+      ]
+    },
+    {
+      "tag":"IOE",
+      "patterns":[
+        "what is IOE?",
+        "What is INternet of everything?",
+        "can you explain wht is IOE?",
+        "what you meaning by IOE?"
+      ],
+      "responses":[
+        "Internet of Everything (IoE) is defined as a network of connections between people, things, data, and processes that provide general intelligence and improved cognition across the networked environment.",
+        "The Internet of Everything (IoE) is a concept that extends the Internet of Things (IoT) emphasis on  machine-to-machine (M2M) communications to describe a more complex system that also encompasses people and processes.",
+        "The concept of the Internet of Everything originated at Cisco, who defines IoE as the intelligent connection of people, process, data and things.Because in the Internet of Things, all communications are between machines, IoT and M2M are sometimes considered synonymous. The more expansive IoE concept includes, besides M2M communications, machine-to-people (M2P) and technology-assisted people-to-people (P2P) interactions.",
+        "The internet of everything (IoE) is a broad term that refers to devices and consumer products connected to the internet and outfitted with expanded digital features. It is a philosophy in which technology's future is comprised of many different types of appliances, devices and items connected to the global internet."
+
+      ]
+    },
+    {
+      "tag":"IOT services",
+      "patterns":[
+        "Lobana please give me some IOT services in our life?",
+        "Exemples for IOT services in our life",
+        "Lobana when we can see IOT Services? "
+      ],
+      "responses":[
+        "We can see IOT in the medical,indistruel ,education services....",
+        "we have IOT at the service of health For a detailed picture of health, wearable devices will collect live data such as blood pressure and sugar, heart rate and pulse. This data is then shared with the doctors who can even detect the signs of the disease and prevent the deterioration of health in time.",
+        "we can see IOT in the service of environment With the use of smart sensors, farmers are able to reduce the amount of waste they produce and to control agricultural processes based on weather, humidity,daylight and other external factors."
+      ]
+    },
+    {
+      "tag": "salutation",
+      "patterns":[
+        "salut",
+        "Bonjour",
+        "Bonsoir",
+        "Est ce que ça va?", "cv", "Allo",
+        "Comment allez vous?"
+      ],
+      "responses":[
+        "salut, puis-je vous aider?",
+        "Bonjour, Comment puis-je vous aider?",
+        "Bonjour",
+        "Salut,"
+      ]
+    },
+    {
+      "tag": "revoir",
+      "patterns":[
+        "au revoir",
+        "à toute",
+        "à plus",
+        "tchao",
+        "bye",
+        "Bonne journée",
+        "à la prochaine",
+        "Bonne soirée",
+        "à bientot",
+        "adieu"
+      ],
+      "responses":[
+        "au revoir",
+        "à la prochaine",
+        "à toute",
+        "ravi de vous parler, à la prochaine"
+      ]
+    },
+    {
+      "tag": "remerciment",
+      "patterns":[
+        "merci",
+        "c'est très gentil", 
+        "je te remercie", 
+        "merci beaucoup",
+        "je vous remercie de tout mon coeur",
+        "c'est très aimable à vous",
+        "je te suis très reconnaissant de m'avoir aidé"
+      ],
+      "responses":[
+        "de rien", 
+        "ce n'est rien",
+        "je vous en pris",
+        "il n'y a pas de quoi", 
+        "avec plaisir"
+      ]
+    },
+    {
+      "tag":"Objet connecté",
+      "patterns":[
+        "Lobana c'est quoi un objet connecté?",
+        "objet connecté ca veut dire quoi?",
+        "pouvez vous m'expliquer l'objet connecté?"
+      ],
+      "responses":[
+        "Un objet connecté est un objet capable de communiquer diverses informations à un autre objet ou à Internet.",
+        "on parle d’objet connecté pour désigner un objet ordinaire (montre, bracelet, jouet, etc.. .) capable de communiquer des informations diverses à un autre objet ou à internet."
+      ]
+    },
+    {
+      "tag":"Internet des objets",
+      "patterns":[
+        "c'est quoi IOT?",
+        "comment on peut definir iot?",
+        "pouvez vous m'expliquer l'iot?",
+        "iot ca veut dire quoi?"
+      ],
+      "responses":[
+        "Internet des onjets décrit le réseau de terminaux physiques, les « objets », qui intègrent des capteurs, des softwares et d’autres technologies en vue de se connecter à d’autres terminaux et systèmes sur Internet et d’échanger des données avec eux. Ces terminaux peuvent aussi bien être de simples appareils domestiques que des outils industriels d’une grande complexité. Avec plus de 7 milliards de terminaux IoT connectés aujourd’hui, les experts s’attendent à ce que ce nombre passe à 10 milliards d’ici 2020 et 22 milliards d’ici 2025. Oracle dispose d’un réseau de partenaires de terminaux.",
+        "L'IoT, ou Internet des objets, désigne le processus de connexion d'objets physiques à Internet, des objets du quotidien tels que les ampoules, aux dispositifs médicaux, appareils portables, appareils intelligents ou encore feux de circulation routière dans les villes intelligentes."
+      ]
+    },
+    {
+      "tag":"architecture de l'IOT",
+      "patterns":[
+        "L'architecture de l'iot basé sur 4 rubriques:capteurs,connectivité,traitement des données et la valeur"
+      ]
+    },
+    {
+      "tag":"ORACLE IOT",
+      "patterns":[
+        "Lobana c'est quoi Oracle IOT cloud service?",
+        "Oracle IOT cloud service ca veut dire quoi?",
+        "pouvez vous m'expliquer OCS?"
+      ],
+      "responses":[
+        "Oracle IoT Cloud Service est une offre cloud PaaS  gérée qui vous aide à prendre des décisions et des stratégies commerciales critiques en vous permettant de connecter vos appareils au cloud, d’analyser les données de ces appareils en temps réel et d’intégrer vos données aux applications d’entreprise, aux services Web ou à d’autres services Oracle Cloud."
+      ]
+    },
+    {
+      "tag":"Les rôles de Oracle IOT cloud service",
+      "patterns":[
+        "Lobana c'est quoi Les rôles de Oracle IOT cloud service?",
+        "Lobana pouvez vous m'expliquer Les rôles de Oracle IOT cloud service?"
+      ],
+      "responses":[
+        "OCS facilite l'analyse, l'intégration et la connexion des applications",
+        "OCS a quatre rôles principaux : connectivité, analyse, intégration et sécurité."
+      ]
+    },
+    {
+      "tag":"Internet de tout",
+      "patterns":[
+        "Lobana c'est quoi IOE?",
+        "pouvez vous m'expliquer l'IOE?",
+        "IOE ca veut dire quoi?",
+        "quel est la definition de l'IOE"
+      ],
+      "responses":[
+        "L'Internet of Everything (IoE) est défini comme un réseau de connexions entre les personnes, les objets, les données et les processus qui fournissent une intelligence générale et une cognition améliorée dans l'environnement en réseau.",
+        "L'Internet des objets (IoT) est un réseau d'objets physiques équipés de capteurs, de logiciels et d'autres technologies. Connectées à Internet, ces objets sont capables d'échanger des données en temps réel avec d'autres appareils et systèmes connectés via des réseaux.",
+        "L'Internet de tout (IoE) est un terme général qui fait référence aux appareils et aux produits de consommation connectés à Internet et équipés de fonctionnalités numériques étendues. C'est une philosophie dans laquelle l'avenir de la technologie est composé de nombreux types d'appareils, d'appareils et d'articles connectés à l'Internet mondial."
+      ]
+    },{
+      "tag":"Les services de l'IOT",
+      "patterns":[
+        "Lobana ou on peut voir IOT dans notre vie?",
+        "quel sont les domaines qui integrent aujourd'hui IOT?"
+      ],
+      "responses":[
+        "prisque tous les domaines aujourd'hui intégrent IOT comme l'education,industrie,la santé, l'evironnement... ",
+        "on trouve l'iot partout par exemple le domaine de la santé ;Pour une image détaillée de la santé, les appareils portables collecteront des données en direct telles que la pression artérielle et le sucre, la fréquence cardiaque et le pouls. Ces données sont ensuite partagées avec les médecins qui peuvent même détecter les signes de la maladie et prévenir la détérioration de la santé à temps.",
+        "Avec l'utilisation de capteurs intelligents, les exploitants agricoles sont capables de réduire la quantité dedéchets qu'ils produisent et de contrôler les processus agricoles en fonction de la météo, de l'humidité, de la lumière du jour ainsi que d'autres facteurs externes.",
+        "l’Internet des objets examine une application de sa technologie au traitement de la maladie d’Alzheimer. La réalité virtuelle est une autre technologie qui améliore les résultats pour les patients atteints de démence."
       ]
     }
+
+   
   ]
 }

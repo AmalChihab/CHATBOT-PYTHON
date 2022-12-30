@@ -53,7 +53,7 @@
       ],
       "responses": [
         "IoT, or Internet of Things, refers to the collective network of connected devices and the technology that facilitates communication between devices and the cloud, as well as between the devices themselves.",
-        "The Internet of Things (IoT) is a network of physical objects that are fitted with sensors, software and other technologies. Connected to the Internet, these ‘things’ are able to exchange real time data with other connected devices and systems over networks.",
+        "The Internet of Things (IoT) is a network of physical objects that are fitted with sensors, software and other technologies. Connected to the Internet, these 'things' are able to exchange real time data with other connected devices and systems over networks.",
         "The Internet of things could be defined as the technology concerned with connecting the devices with each other to facilitate communication between them. The devices that are connected will be able to share the information that can be used as the input by any device that is dependent on the other devices for input. It is called the Internet of things as similar to the Internet; this technology ensures the networking among the devices."
       ]
     },
@@ -79,7 +79,7 @@
       
       ],
       "responses":[
-        "Oracle IoT Cloud Service est une offre cloud PaaS  gérée qui vous aide à prendre des décisions et des stratégies commerciales critiques en vous permettant de connecter vos appareils au cloud, d’analyser les données de ces appareils en temps réel et d’intégrer vos données aux applications d’entreprise, aux services Web ou à d’autres services Oracle Cloud. "
+        "Oracle IoT Cloud Service is a managed PaaS cloud offering that helps you make critical business decisions and strategies by enabling you to connect your devices to the cloud, analyze data from those devices in real time, and integrate your data with enterprise applications, web services, or other Oracle Cloud services."
        ]
     },
     {
@@ -188,7 +188,7 @@
       ],
       "responses":[
         "Un objet connecté est un objet capable de communiquer diverses informations à un autre objet ou à Internet.",
-        "on parle d’objet connecté pour désigner un objet ordinaire (montre, bracelet, jouet, etc.. .) capable de communiquer des informations diverses à un autre objet ou à internet."
+        "on parle d'objet connecté pour désigner un objet ordinaire (montre, bracelet, jouet, etc.. .) capable de communiquer des informations diverses à un autre objet ou à internet."
       ]
     },
     {
@@ -200,7 +200,7 @@
         "iot ca veut dire quoi?"
       ],
       "responses":[
-        "Internet des onjets décrit le réseau de terminaux physiques, les « objets », qui intègrent des capteurs, des softwares et d’autres technologies en vue de se connecter à d’autres terminaux et systèmes sur Internet et d’échanger des données avec eux. Ces terminaux peuvent aussi bien être de simples appareils domestiques que des outils industriels d’une grande complexité. Avec plus de 7 milliards de terminaux IoT connectés aujourd’hui, les experts s’attendent à ce que ce nombre passe à 10 milliards d’ici 2020 et 22 milliards d’ici 2025. Oracle dispose d’un réseau de partenaires de terminaux.",
+        "Internet des onjets décrit le réseau de terminaux physiques, les « objets », qui intègrent des capteurs, des softwares et d'autres technologies en vue de se connecter à d'autres terminaux et systèmes sur Internet et d'échanger des données avec eux. Ces terminaux peuvent aussi bien être de simples appareils domestiques que des outils industriels d'une grande complexité. Avec plus de 7 milliards de terminaux IoT connectés aujourd'hui, les experts s'attendent à ce que ce nombre passe à 10 milliards d'ici 2020 et 22 milliards d'ici 2025. Oracle dispose d'un réseau de partenaires de terminaux.",
         "L'IoT, ou Internet des objets, désigne le processus de connexion d'objets physiques à Internet, des objets du quotidien tels que les ampoules, aux dispositifs médicaux, appareils portables, appareils intelligents ou encore feux de circulation routière dans les villes intelligentes."
       ]
     },
@@ -218,7 +218,7 @@
         "pouvez vous m'expliquer OCS?"
       ],
       "responses":[
-        "Oracle IoT Cloud Service est une offre cloud PaaS  gérée qui vous aide à prendre des décisions et des stratégies commerciales critiques en vous permettant de connecter vos appareils au cloud, d’analyser les données de ces appareils en temps réel et d’intégrer vos données aux applications d’entreprise, aux services Web ou à d’autres services Oracle Cloud."
+        "Oracle IoT Cloud Service est une offre cloud PaaS  gérée qui vous aide à prendre des décisions et des stratégies commerciales critiques en vous permettant de connecter vos appareils au cloud, d'analyser les données de ces appareils en temps réel et d'intégrer vos données aux applications d'entreprise, aux services Web ou à d'autres services Oracle Cloud."
       ]
     },
     {
@@ -242,7 +242,6 @@
       ],
       "responses":[
         "L'Internet of Everything (IoE) est défini comme un réseau de connexions entre les personnes, les objets, les données et les processus qui fournissent une intelligence générale et une cognition améliorée dans l'environnement en réseau.",
-        "L'Internet des objets (IoT) est un réseau d'objets physiques équipés de capteurs, de logiciels et d'autres technologies. Connectées à Internet, ces objets sont capables d'échanger des données en temps réel avec d'autres appareils et systèmes connectés via des réseaux.",
         "L'Internet de tout (IoE) est un terme général qui fait référence aux appareils et aux produits de consommation connectés à Internet et équipés de fonctionnalités numériques étendues. C'est une philosophie dans laquelle l'avenir de la technologie est composé de nombreux types d'appareils, d'appareils et d'articles connectés à l'Internet mondial."
       ]
     },{
@@ -255,7 +254,7 @@
         "prisque tous les domaines aujourd'hui intégrent IOT comme l'education,industrie,la santé, l'evironnement... ",
         "on trouve l'iot partout par exemple le domaine de la santé ;Pour une image détaillée de la santé, les appareils portables collecteront des données en direct telles que la pression artérielle et le sucre, la fréquence cardiaque et le pouls. Ces données sont ensuite partagées avec les médecins qui peuvent même détecter les signes de la maladie et prévenir la détérioration de la santé à temps.",
         "Avec l'utilisation de capteurs intelligents, les exploitants agricoles sont capables de réduire la quantité dedéchets qu'ils produisent et de contrôler les processus agricoles en fonction de la météo, de l'humidité, de la lumière du jour ainsi que d'autres facteurs externes.",
-        "l’Internet des objets examine une application de sa technologie au traitement de la maladie d’Alzheimer. La réalité virtuelle est une autre technologie qui améliore les résultats pour les patients atteints de démence."
+        "l'Internet des objets examine une application de sa technologie au traitement de la maladie d'Alzheimer. La réalité virtuelle est une autre technologie qui améliore les résultats pour les patients atteints de démence."
       ]
     }
 
